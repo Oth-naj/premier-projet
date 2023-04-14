@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>registrationform</title>
+</head>
+
+<body>
+    <div style="text-align:center;width: 300px;margin: 0 auto;">
+        <h1><u>Registration Form</u></h1>
+    </div>
+    <form>
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <label for="nom">First Name :</label>
+            <input type="text" id="nom">
+        </div>
+
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <label for="surname">Second Name :</label>
+            <input type="text" id="surname">
+        </div>
+
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <label for="nickname">Nick Name :</label>
+            <input type="text" id="nickname">
+        </div>
+
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" pattern=".+@globex\.com">
+        </div>
+
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <label for="password">Password :</label>
+            <input type="password" id="password">
+        </div>
+
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <label for="birthday">Date Of Birth :</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <label for="gender">Gender :</label>
+            <input type="radio" name="group2" >Male 
+            <input type="radio" name="group2" >Female
+            <input type="radio" name="group2" >Others
+            </label>
+        </div>
+
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <label for="mobile">Mobile :</label>
+            <input type="tel" name="tel" id="tel">
+        </div>
+
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <label for="bio">Biographie :</label>
+            <br>
+            <textarea id="bio" cols="30" rows="10"></textarea>
+        </div>
+
+        <div style="text-align:center;width: 300px;margin: 0 auto;">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div> 
+    </form>
+</body>
+
+</html>
